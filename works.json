@@ -1,0 +1,65 @@
+[
+  {
+    "title": "绿山墙的安妮",
+    "category": "narrative",
+    "order": 1,
+    "cover": "cover-anne.png",
+    "role": "",
+    "description": "选择改编名著《绿山墙的安妮》中冲突与道歉的片段，想呈现一个像野草般生长的女孩：敏感、自卑，却不肯轻易低头。通过AI影像重现她如何在被理解与接纳中学会守住自己的尊严。",
+    "video": "https://github.com/xufanwang49/3349/releases/download/portfolio-media-v1/anne.mp4"
+  },
+  {
+    "title": "FUCHOU",
+    "category": "narrative",
+    "order": 2,
+    "cover": "cover-FUCHOU.png",
+    "role": "",
+    "description": "一个女人被丈夫二次拐卖后复仇的故事",
+    "video": "https://github.com/xufanwang49/3349/releases/download/portfolio-media-v1/FUCHOU.mp4"
+  },
+  {
+    "title": "茶汤 MV",
+    "category": "art",
+    "order": 3,
+    "cover": "cover-chatang.png",
+    "role": "",
+    "description": "",
+    "video": "https://github.com/xufanwang49/3349/releases/download/portfolio-media-v1/chatang.mp4"
+  },
+  {
+    "title": "生化巨兽",
+    "category": "narrative",
+    "order": 4,
+    "cover": "cover-creature.png",
+    "role": "",
+    "description": "",
+    "video": "https://github.com/xufanwang49/3349/releases/download/portfolio-media-v1/creature.mp4"
+  },
+  {
+    "title": "民俗样片",
+    "category": "narrative",
+    "order": 5,
+    "cover": "cover-folklore.png",
+    "role": "",
+    "description": "",
+    "video": "https://github.com/xufanwang49/3349/releases/download/portfolio-media-v1/folklore.mp4"
+  },
+  {
+    "title": "新生",
+    "category": "live",
+    "order": 6,
+    "cover": "cover-xinsheng.png",
+    "role": "导演 | 摄影",
+    "description": "",
+    "video": "https://github.com/xufanwang49/3349/releases/download/portfolio-media-v1/xinsheng.mp4"
+  },
+  {
+    "title": "天凉好个秋",
+    "category": "live",
+    "order": 7,
+    "cover": "cover-solitary-fall.png",
+    "role": "摄影",
+    "description": "",
+    "video": "https://github.com/xufanwang49/3349/releases/download/portfolio-media-v1/solitary-fall.mp4"
+  }
+]
