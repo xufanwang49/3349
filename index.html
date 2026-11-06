@@ -260,7 +260,9 @@ async function loadWorks() {
         const note = document.querySelector('.dialog-note'); note.replaceChildren();
         const role = document.createElement('p'); role.textContent = work.role ? '参与职责：' + work.role : '';
         if(!work.video){const image=document.createElement('img');image.src=work.cover;image.alt=work.title+'封面';image.style.cssText='width:100%;display:block';const message=document.createElement('p');message.textContent='试用站：视频正在迁移，暂展示封面。';note.append(image,role,message);dialog.showModal();return;}
-        const player = document.createElement('video'); player.controls = true; player.playsInline = true; player.preload = 'metadata'; player.poster = work.cover; player.src = work.video;
+        const player = document.createElement('video'); player.controls = true; player.playsInline = true; player.preload = 'metadata'; player.poster = work.cover;
+        // Safari needs an explicit media type for Release URLs served as octet-stream.
+        const source = document.createElement('source'); source.src = work.video; source.type = 'video/mp4'; player.append(source);
         player.style.cssText = 'width:100%;max-height:65vh;background:#000';
         const fallback = document.createElement('a'); fallback.href = work.video; fallback.textContent = '打开原视频 ↗'; fallback.target = '_blank'; fallback.rel = 'noopener';
         note.append(player, role, fallback); dialog.showModal();
